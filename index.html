@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tasbeh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./calculator-svgrepo-com.svg">
+    <script src="java.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Text</h3>
+      <div id="header">
+        <div>
+          <h2>Total: <span class="total">0</span></h2>
+          <h1><span class="current">0</span></h2>
+          <audio src="./beep_1.mp3"></audio>
+          <audio src="./beep.mp3" id="end"></audio>
+        </div>
+        <button id="count" onclick="sanash()">SANASH</button>
+        <div class="bar">
+          <button id="reset" onclick="restart()">BOSHIDAN</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
