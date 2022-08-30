@@ -6,6 +6,8 @@ body {
     margin: 5em 0;
     color: #521751;
     background-image: url(./background.png);
+    background-repeat: no-repeat;
+      background-size: cover;
   }
   
   .container {
