@@ -5,6 +5,7 @@ body {
   body {
     margin: 5em 0;
     color: #521751;
+    background-image: url(./background.png);
   }
   
   .container {
